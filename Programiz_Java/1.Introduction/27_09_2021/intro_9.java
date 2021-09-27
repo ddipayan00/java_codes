@@ -5,17 +5,7 @@ public class intro_9 {
         int x = sc.nextInt();
         int y = sc.nextInt();
         int z = sc.nextInt();
-        //int ans = (x>y && x>z)?x:(y>z)?y:z;
-        int ans = 0;
-        if(x>y && x>z){
-            ans = x;
-        }
-        else if(y>z){
-            ans = y;
-        }
-        else{
-            ans = z;
-        }
+        int ans = (x>y && x>z)?x:(y>z)?y:z;
         System.out.println(ans);
         sc.close();
     }
