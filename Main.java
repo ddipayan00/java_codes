@@ -25,8 +25,7 @@ public class Main {
 		    }
 		    else{
 		        break;
-		    }
-		    
+		    } 
 		}
 		count = 1;
 		if(arr[n-1] == arr[n-2]){
