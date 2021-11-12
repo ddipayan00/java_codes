@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class Main {
+public class removeDublicate {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 		int[] arr = {2,8,4,2,7,1,66,2,1,9,3,1,99,66,9,0,100,45,7}; // Array Elements
