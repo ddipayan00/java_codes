@@ -2,18 +2,18 @@ import java.util.Arrays;
 public class Main {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
-		int[] arr = {2,8,4,2,7,1,66,2,1,9,3,1,99,66,9,0,100,45,7};
+		int[] arr = {2,8,4,2,7,1,66,2,1,9,3,1,99,66,9,0,100,45,7}; // Array Elements
 		int n = arr.length;
-		System.out.println("Unsorted Array : ");
+		System.out.println("Unsorted Array : "); // Unsorted Array 
 		for(int x: arr){
 		    System.out.print(x+" ");
 		}
-		System.out.println("\n\nSorted Array : ");
+		System.out.println("\n\nSorted Array : "); // Sorted Array
 		Arrays.sort(arr);
 		for(int x: arr){
 		    System.out.print(x+" ");
 		}
-		System.out.println("\n\nDistinct Elements :(After removing dublicates) ");
+		System.out.println("\n\nDistinct Elements :(After removing dublicates) "); // Distinct Elements after removing dublicates
 		int count = 1;
 		for(int i=0;i<n-1;i++){
 		    if(i != n-1){
