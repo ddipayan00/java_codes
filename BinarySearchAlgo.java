@@ -20,7 +20,7 @@ public class BinarySearchAlgo {
 		    System.out.print(x+" ");
 		}
 		while(low < high){
-		    mid = (low+high)/2;
+		    mid = low+(high-low)/2;
 		    if(arr[mid] == k){
 		        p = true;
 		        break;
