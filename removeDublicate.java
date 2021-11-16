@@ -16,16 +16,11 @@ public class removeDublicate {
 		System.out.println("\n\nDistinct Elements :(After removing dublicates) "); // Distinct Elements after removing dublicates
 		int count = 1;
 		for(int i=0;i<n-1;i++){
-		    if(i != n-1){
-		        if(arr[i] != arr[i+1]){
-		            System.out.println(arr[i] +" => Count : "+ count + " ");
-		            count = 0;
-		        }
-		        count++;
+		    if(arr[i] != arr[i+1]){
+		        System.out.println(arr[i] +" => Count : "+ count + " ");
+		        count = 0;
 		    }
-		    else{
-		        break;
-		    } 
+		    count++;
 		}
 		count = 1;
 		if(arr[n-1] == arr[n-2]){
