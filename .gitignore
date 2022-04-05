@@ -1,0 +1,7 @@
+/.metadata/
+*.xml
+*.iml
+/spring/.metadata/
+
+*.project
+*.prefs
